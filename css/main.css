@@ -70,7 +70,7 @@ a:hover {
   box-sizing: border-box;
   text-indent: 0px;
   text-align: center;
-  line-height: 20px;
+  line-height: 22px;
   border-radius: 2px;
 }
 
@@ -81,4 +81,12 @@ a:hover {
 .top_menu a:nth-child(3) {
   background: url(../images/daum.png) no-repeat -30px -20px;
   margin-right: 0;
+}
+
+.top_menu a:nth-child(2):hover {
+  background: url(../images/daum.png) no-repeat -60px -20px;
+}
+
+.top_menu a:nth-child(3):hover {
+  background: url(../images/daum.png) no-repeat -90px -20px;
 }
